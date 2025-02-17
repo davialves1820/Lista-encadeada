@@ -48,16 +48,16 @@ Exemplo de funcionamento da lista:
 Lista criada.
 Lista vazia? Sim
 Valor 1 adicionado na posicao 1.
-1
+Lista: 1
 Valor 2 adicionado na posicao 1.
-2 1
+Lista: 2 1
 Valor 7 adicionado na posicao 2.
-2 7 1
+Lista: 2 7 1
 Editando o valor da posicao 1
-10 7 1
+Lista: 10 7 1
 Lista vazia? Nao
 Removendo o elemento da segunda posicao:
-10 1 
+Lista: 10 1 
 Valor na posicao 2: 1
 Tamanho da lista: 2
 Memoria desalocada.
