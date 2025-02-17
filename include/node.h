@@ -3,6 +3,9 @@
 
 #include <iostream>
 
+using std::cout;
+using std::endl;
+
 class node {
     int value; // Vaor armazenado no nó
     node* next; // Aponta para o próximo nó ou para nullptr

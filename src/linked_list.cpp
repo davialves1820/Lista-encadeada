@@ -2,7 +2,7 @@
 
 // Inicializa a lista
 linked_list::linked_list() : tam(0), head(nullptr) {
-    std::cout << "Lista criada." << std::endl;
+    cout << "Lista criada." << endl;
 }
 
 // Verifica se a lista está vazia
@@ -34,7 +34,7 @@ void linked_list::insert_node(int pos, int value) {
     } else {
         insert_midle(pos, value);
     }
-    std::cout << "Valor " << value << " adicionado na posicao " << pos << "." << std::endl;
+    cout << "Valor " << value << " adicionado na posicao " << pos << "." << endl;
 }
 
 // Insere o elemento na primeira posição
@@ -136,6 +136,7 @@ int linked_list::get_value(int pos) {
 // Exibe a lista
 void linked_list::print_list() {
     node* aux = head;
+    cout << "Lista: ";
     while (aux != nullptr) {
         std::cout << aux->get_value() << " ";
         aux = aux->get_next();
@@ -151,6 +152,6 @@ linked_list::~linked_list() {
         head = head->get_next();
         delete d;
     }
-    std::cout << "Memoria desalocada." << std::endl;
+    cout << "Memoria desalocada." << endl;
 }
 
