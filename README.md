@@ -29,7 +29,7 @@ make
 ---
 
 ## 🔧 Funcionalidades
-O programa permite realizar as seguintes operações na lista sequencial:
+O programa permite realizar as seguintes operações na lista encadeada:
 - Criar uma lista.
 - Verificar se a lista está vazia.
 - Obter o tamanho atual da lista.
